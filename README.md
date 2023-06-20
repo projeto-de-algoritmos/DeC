@@ -11,7 +11,7 @@
 | 17/0069991	 |  João Victor Max Bisinotti de Oliveira |
 
 ## Sobre 
-Resoluçaõ de exerícios: Maior frequência numero, MergeSort(a fazer)
+Resoluçaõ de exerícios: Maior frequência numero, SubArray
 
 ## Screenshots
 Exercicio 1
