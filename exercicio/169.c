@@ -7,7 +7,7 @@ int contFuncao( int valores[], int alvo, int inicio, int fim ){
     for(int i = inicio; i<=fim-1; i++){
         //printf("entrou, o número é: %d !\n", valores[i]);
         if(valores[i] == alvo){
-            contagem++;
+            contagem++; //somando as repetições
         }  
     }
 
