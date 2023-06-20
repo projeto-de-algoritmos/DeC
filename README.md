@@ -17,10 +17,13 @@ Resoluçaõ de exerícios: Maior frequência numero, SubArray
 Exercicio 1
 
 <img src="imagens/funcionamentoPrimeiro.png" alt="MarineGEO circle logo" style="height: 280px; width:380px;"/>
+<img src="imagens/primeiro.png" alt="MarineGEO circle logo" style="height: 280px; width:380px;"/>
+
 
 Exercicio 2
 
 <img src="imagens/funcionamentoSegunda.png" alt="MarineGEO circle logo" style="height: 280px; width:380px;"/>
+<img src="imagens/segundo.png" alt="MarineGEO circle logo" style="height: 280px; width:380px;"/>
 
 
 ## Instalação 
