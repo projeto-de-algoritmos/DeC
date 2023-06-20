@@ -21,13 +21,13 @@ int maiorElemento(int inicio, int fim, int valores[]){
         return valores[inicio];
     }
 
-    int medio = (inicio + fim)/2;
+    int medio = (inicio + fim)/2; //pegando o espaço médio do array de valores. Para dividir ao meio
     //printf("%d", &medio);
-    int divisaoEsquerda = maiorElemento(inicio, medio, valores);
-    int divisaoDireita = maiorElemento(medio+1, fim, valores);
+    int divisaoEsquerda = maiorElemento(inicio, medio, valores); //chamada recursiva dividindo o vetor ao meio, pegando a parte mais a esquerda.
+    int divisaoDireita = maiorElemento(medio+1, fim, valores); //o mesmo acima mas pegando a direita. 
 
-    int contagemMaiorEsquerda = contFuncao(valores, divisaoEsquerda, inicio, fim);
-    int contagemMaiorDireita = contFuncao(valores, divisaoDireita, inicio, fim);
+    int contagemMaiorEsquerda = contFuncao(valores, divisaoEsquerda, inicio, fim); //realizando a contagem
+    int contagemMaiorDireita = contFuncao(valores, divisaoDireita, inicio, fim); //o mesmo
 
     if(contagemMaiorEsquerda > contagemMaiorDireita){
         return divisaoEsquerda;
