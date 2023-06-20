@@ -35,8 +35,6 @@ int maiorElemento(int inicio, int fim, int valores[]){
         return divisaoDireita;
     }
 
-    
-    //return medio;
 }
 
 
@@ -44,7 +42,7 @@ int maiorElemento(int inicio, int fim, int valores[]){
 
 int main(){
 
-    int valores[] = {2,2,1,1,1,2,2,9,1,1,1,1,9,9,9,9};
+    int valores[] = {2,2,1,1,1,2,2,9,1,1,1,1,9,9,9,9,2,2,2,2,2};
     //int saida = contFuncao(valores, 2, 0, 4);
     //int saida2 = maiorElemento(0, 4, valores);
     //printf("%d\n", saida);
@@ -52,7 +50,6 @@ int main(){
 
     int arr_size = sizeof(valores)/sizeof(valores[0]);
 
-//    int extensaoVetor = tamanhoVetor(valores);
 
     //printf("%d\n", arr_size);
 
